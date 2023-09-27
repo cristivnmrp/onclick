@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Page</title>
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <div class="flex-container nav">
+                <h1 class="nav-title">Dojonary</h1>
+                    <input type="text" name="search" class="input1" placeholder="Search">
+                    <button id="btn" onclick="logout(this)">Login</button>
+            </div>
+        </div>
+
+        <div class="flex-container main">
+            <div class="col-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h1>ninja</h1>
+                        <h2>noun</h2>
+                        <h3>Plural: ninjas</h3>
+                        <button id="boton-likes" onclick="alerta"> 13 likes </button>
+                        <p class="dates"> A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h1>ninja</h1>
+                        <h2>noun</h2>
+                        <h3>Plural: ninjas</h3>
+                        <button id="boton-likes" onclick="alerta"> 37 likes </button>
+                        <p class="dates"> A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="card">
+                    <div>
+                        <h1>Dojonary is defined by YOU</h1>
+                        <button class="boton-definition" onclick="remove(this)">Add Definition</button>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
